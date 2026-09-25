@@ -1,15 +1,20 @@
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import About from './components/About'
+import Skills from './components/Skills'
+import Project from './components/Project'
+import Contact from './components/Contact'
 
 function App() {
   return (
     <>
     <Navbar />
-    <section>Hero (Tentang saya)</section>
-    <section>Yang saya kerjakan</section>
-    <section>Project saya</section>
-    <footer>Kontak</footer>
+    <Hero />
+    <About />
+    <Skills />
+    <Project />
+    <Contact />
     </>
-
   )
 }
 
