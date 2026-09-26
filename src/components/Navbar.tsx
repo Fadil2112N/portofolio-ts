@@ -22,14 +22,15 @@ function Navbar() {
   return (
     <header className="sticky top-0 z-50 flex justify-between items-center px-6 md:px-10 py-5 bg-gray-900 border-b border-gray-700">
       <div className="leading-tight">
-        <h1 className="font-bold text-lg tracking-wide text-white">
+        <p className="font-bold text-sm sm:text-base md:text-lg tracking-wide text-white whitespace-nowrap">
           FADIL ADI MAULANA
-        </h1>
-        <p className="text-xs text-gray-400 tracking-widest uppercase">
+        </p>
+        <p className="text-[10px] sm:text-xs text-gray-400 tracking-widest uppercase">
           Web Developer
         </p>
       </div>
 
+      {/* Desktop nav */}
       <nav className="hidden md:flex gap-6 text-sm font-medium text-gray-200">
         {links.map((link) => (
           <motion.a
@@ -44,6 +45,7 @@ function Navbar() {
         ))}
       </nav>
 
+      {/* Mobile hamburger button */}
       <motion.button
         whileTap={{ scale: 0.85 }}
         onClick={() => setOpen((prev) => !prev)}
@@ -64,6 +66,7 @@ function Navbar() {
         />
       </motion.button>
 
+      {/* Mobile nav overlay */}
       <AnimatePresence>
         {open && (
           <motion.nav
