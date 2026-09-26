@@ -11,19 +11,19 @@ function Navbar() {
       </div>
 
       <nav className="flex gap-6 text-sm font-medium text-gray-200">
-        <a href="#hero" className="hover:text-indigo-400 transition-colors">
+        <a href="#hero" className="hover:text-indigo-400 transition-colors duration-300 ease-in-out">
           Home
         </a>
-        <a href="#about" className="hover:text-indigo-400 transition-colors">
+        <a href="#about" className="hover:text-indigo-400 transition-colors duration-300 ease-in-out">
           About
         </a>
-        <a href="#skills" className="hover:text-indigo-400 transition-colors">
+        <a href="#skills" className="hover:text-indigo-400 transition-colors duration-300 ease-in-out">
           Skills
         </a>
-        <a href="#projects" className="hover:text-indigo-400 transition-colors">
+        <a href="#projects" className="hover:text-indigo-400 transition-colors duration-300 ease-in-out">
           Projects
         </a>
-        <a href="#contact" className="hover:text-indigo-400 transition-colors">
+        <a href="#contact" className="hover:text-indigo-400 transition-colors duration-300 ease-in-out">
           Contact
         </a>
       </nav>

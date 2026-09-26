@@ -7,7 +7,7 @@ function Contact() {
                 <a href="https://wa.me/6282117689752"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-indigo-400 underline hover:text-indigo-300"
+                className="text-indigo-400 underline hover:text-indigo-300 duration-300 ease-in-out"
                 >
                     WhatsApp
                 </a>
@@ -15,7 +15,7 @@ function Contact() {
                 <a href="https://instagram.com/dilmlnaa"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-indigo-400 underline hover:text-indigo-300"
+                className="text-indigo-400 underline hover:text-indigo-300 duration-300 ease-in-out"
                 >
                     Instagram
                 </a>
@@ -23,7 +23,7 @@ function Contact() {
                 <a href="https://github.com/Fadil2112N"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-indigo-400 underline hover:text-indigo-300"
+                className="text-indigo-400 underline hover:text-indigo-300 duration-300 ease-in-out"
             
                 >
                     GitHub
